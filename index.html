@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Prosto+One&family=Raleway:wght@400;500&display=swap" rel="stylesheet" />
+    <title>InstRomm</title>
+    <link href="/css/output.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="bg-coal">
+      <div class="container">
+        <!-- top menu -->
+        <div class="flex justify-between items-center">
+          <a href="/index.html">
+            <img src="/img/Лого.png" alt="logo" />
+          </a>
+          <div class="flex items-center space-x-[60px] max-xl:flex-col max-xl:space-x-0 max-xl:space-y-1">
+            <p class="text-base font-medium">Время работы: 10:00–20:00</p>
+            <!-- call -->
+            <div class="flex flex-col space-y-2.5">
+              <span class="text-lg font-semibold">+380 123 45 67 89</span>
+              <button class="w-fit text-sm underline text-red">Заказать звонок</button>
+            </div>
+          </div>
+          <div class="flex space-x-4">
+            <div class="flex space-x-0.5">
+              <a href="#" class="group relative p-8 bg-darkgray hover:bg-orange duration-150 ease-in-out">
+                <img src="/img/icons/heart-lg.svg" alt="heart-lg" />
+                <div class="absolute left-1/2 top-1/4 rounded-full flex justify-center items-center w-[22px] h-[22px] bg-orange text-xs font-medium group-hover:bg-white group-hover:text-orange duration-150 ease-in-out">
+                  <span>0</span>
+                </div>
+              </a>
+              <a href="#" class="group relative p-8 bg-darkgray hover:bg-orange duration-150 ease-in-out">
+                <img src="/img/icons/bar-chart-lg-white.svg" alt="bar-chart-lg-white" />
+                <div class="absolute left-1/2 top-1/4 rounded-full flex justify-center items-center w-[22px] h-[22px] bg-orange text-xs font-medium group-hover:bg-white group-hover:text-orange duration-150 ease-in-out">
+                  <span>0</span>
+                </div>
+              </a>
+              <a href="#" class="group relative p-8 bg-darkgray hover:bg-orange duration-150 ease-in-out">
+                <img src="/img/icons/profile.svg" alt="profile" />
+              </a>
+              <a href="#" class="group relative p-8 bg-darkgray hover:bg-orange duration-150 ease-in-out">
+                <img src="/img/icons/shopping-cart.svg" alt="shopping-cart" />
+                <div class="absolute left-1/2 top-1/4 rounded-full flex justify-center items-center w-[22px] h-[22px] bg-orange text-xs font-medium group-hover:bg-white group-hover:text-orange duration-150 ease-in-out">
+                  <span>0</span>
+                </div>
+              </a>
+            </div>
+            <div class="flex flex-col justify-center space-y-1">
+              <span class="text-base font-medium">Товаров на сумму</span>
+              <span class="text-base font-bold">2 000 ₴</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="bg-black py-5">
+      <div class="container">
+        <div class="flex justify-between items-center">
+          <button class="flex items-center px-4 py-3.5 bg-transparent border border-orange rounded-md space-x-3 hover:bg-orange duration-150 focus:bg-orange">
+            <img src="/img/Бургер.svg" alt="Бургер" />
+            <span class="text-base font-medium">Каталог товаров</span>
+          </button>
+          <nav>
+            <ul class="flex space-x-[60px] text-base font-medium">
+              <li><a href="#">О компании</a></li>
+              <li><a href="#">Акции</a></li>
+              <li><a href="#">Хиты сезона</a></li>
+              <li><a href="#">Новинки</a></li>
+            </ul>
+          </nav>
+          <div class="flex space-x-3">
+            <a target="_blank" href="https:www.instagram.com"><img src="/img/instagram.png" alt="instagram" /></a>
+            <a target="_blank" href="https:www.facebook.com"><img src="/img/facebook.png" alt="facebook" /></a>
+          </div>
+          <input type="search" placeholder="Поиск по каталогу" class="w-[300px] text-base font-medium text-black placeholder-smoky rounded-md px-4 py-3.5 max-xl:hidden" />
+          <button class="xl:hidden"><img class="fill-white" src="/img/icons/search.svg" alt="search" /></button>
+        </div>
+      </div>
+    </div>
+    <div class="bg-coal">
+      <div class="container">
+        <!-- banners -->
+        <div class="flex space-x-5 py-5 h-[480px]">
+          <!-- left 2 -->
+          <div class="flex flex-[3] space-x-5">
+            <div class="banner1 relative flex flex-[3] flex-col justify-start p-8 rounded-md">
+              <div class="flex flex-col space-y-6 z-50">
+                <h1>
+                  DeWALT - Инструмент <br />
+                  с настоящим характером
+                </h1>
+                <button class="bg-orange px-4 py-3.5 w-fit rounded-md font-raleway text-sm">ПЕРЕЙТИ В КАТАЛОГ</button>
+                <a href="#" class="absolute left-0 bottom-0 rounded-bl-md rounded-tr-md bg-black p-4 hover:bg-orange duration-150">
+                  <img src="/img/icons/arrow-right.svg" alt="arrow-right" />
+                </a>
+              </div>
+              <div class="absolute left-0 top-0 bg-gradient-to-b from-[#000000a1] to-transparent w-full h-full rounded-md"></div>
+            </div>
+            <div class="banner2 relative flex flex-1 flex-col justify-start p-8 rounded-md">
+              <div class="flex flex-col space-y-6 z-50">
+                <p class="text-xl font-prosto">Акции</p>
+                <a href="#" class="absolute left-0 bottom-0 rounded-bl-md rounded-tr-md bg-black p-4 hover:bg-orange duration-150">
+                  <img src="/img/icons/arrow-right.svg" alt="arrow-right" />
+                </a>
+              </div>
+              <div class="absolute left-0 top-0 bg-gradient-to-b from-[#000000a1] to-transparent w-full h-full rounded-md"></div>
+            </div>
+          </div>
+          <!-- right 2 -->
+          <div class="flex flex-1 flex-col space-y-5">
+            <div class="banner3 relative flex flex-1 flex-col justify-start p-8 rounded-md">
+              <div class="flex flex-col space-y-6 z-50">
+                <p class="text-xl font-prosto">Новое поступление</p>
+                <a href="#" class="absolute left-0 bottom-0 rounded-bl-md rounded-tr-md bg-black p-4 hover:bg-orange duration-150">
+                  <img src="/img/icons/arrow-right.svg" alt="arrow-right" />
+                </a>
+              </div>
+              <div class="absolute left-0 top-0 bg-gradient-to-b from-[#000000a1] to-transparent w-full h-full rounded-md"></div>
+            </div>
+            <div class="banner4 relative flex flex-1 flex-col justify-start p-8 rounded-md">
+              <div class="flex flex-col space-y-6 z-50">
+                <p class="text-xl font-prosto">Акции на сверла</p>
+                <a href="#" class="absolute left-0 bottom-0 rounded-bl-md rounded-tr-md bg-black p-4 hover:bg-orange duration-150">
+                  <img src="/img/icons/arrow-right.svg" alt="arrow-right" />
+                </a>
+              </div>
+              <div class="absolute left-0 top-0 bg-gradient-to-b from-[#000000a1] to-transparent w-full h-full rounded-md"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

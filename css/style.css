@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: "Raleway", sans-serif;
+    color: white;
+  }
+}
+input {
+  outline: none;
+}
+h1 {
+  font-family: "Prosto One", sans-serif;
+  font-size: 40px;
+  line-height: 48px;
+}
+h2 {
+  font-family: "Prosto One", sans-serif;
+  font-size: 30px;
+  line-height: 32px;
+}
+.banner1 {
+  background-image: url("/img/banner1.png");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+}
+.banner2 {
+  background-image: url("/img/banner2.png");
+  background-position: center;
+  background-size: cover;
+}
+.banner3 {
+  background-image: url("/img/banner3.png");
+  background-position: center;
+  background-size: cover;
+}
+.banner4 {
+  background-image: url("/img/banner4.png");
+  background-position: center;
+  background-size: cover;
+}
