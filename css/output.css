@@ -859,6 +859,10 @@ html {
   fill: #FFFFFF;
 }
 
+.fill-black {
+  fill: #000000;
+}
+
 .p-4 {
   padding: 1rem;
 }
