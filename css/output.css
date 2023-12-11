@@ -633,6 +633,18 @@ html {
   height: 40px;
 }
 
+.h-\[1em\] {
+  height: 1em;
+}
+
+.h-4 {
+  height: 1rem;
+}
+
+.h-8 {
+  height: 2rem;
+}
+
 .w-\[22px\] {
   width: 22px;
 }
@@ -652,6 +664,18 @@ html {
 
 .w-\[40px\] {
   width: 40px;
+}
+
+.w-\[1em\] {
+  width: 1em;
+}
+
+.w-4 {
+  width: 1rem;
+}
+
+.w-8 {
+  width: 2rem;
 }
 
 .flex-1 {
@@ -861,6 +885,10 @@ html {
 
 .fill-black {
   fill: #000000;
+}
+
+.stroke-black {
+  stroke: #000000;
 }
 
 .p-4 {
